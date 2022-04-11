@@ -1,7 +1,7 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Videos</h1>
-
+<h1>Videoer</h1>
+<h4>Her skal jeg laste opp videoer når jeg får drona mi :D</h4>
 <div id="videos">
   <% @videos.each do |video| %>
     <%= render video %>
@@ -11,7 +11,7 @@
   <% end %>
 </div>
 
-<%= link_to "New video", new_video_path %>
+<%= link_to "Last opp video", new_video_path, class:"btn btn-secondary" %>
 
 <script type="text/javascript" charset="utf-8">
   document.getElementById("navlink_videoer").classList.add("active")

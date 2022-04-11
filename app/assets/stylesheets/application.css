@@ -42,3 +42,9 @@ div.video_bg_container div.label {
     color: white;
 }
 
+.card {
+    background-color: transparent;
+    border: none;
+}
+
+
