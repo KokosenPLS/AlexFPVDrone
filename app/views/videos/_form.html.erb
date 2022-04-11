@@ -11,7 +11,22 @@
     </div>
   <% end %>
 
+  <div class="mb-3">
+    <%= form.label :video_file, "Last opp videoklipp", class:"form-label" %>
+    <%= form.file_field :video_file, class:"form-control" %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.label :title, "Tittel", class:"form-label" %>
+    <%= form.text_field :title, class:"form-control" %>
+  </div>
+
+  <div class="mb-3">
+    <%= form.label :description, "Beskrivelse", class:"form-label" %>
+    <%= form.text_area :description, class:"form-control" %>
+  </div>
+
   <div>
-    <%= form.submit %>
+    <%= form.submit class:"btn btn-success" %>
   </div>
 <% end %>
