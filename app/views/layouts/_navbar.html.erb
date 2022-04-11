@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <%= link_to root_path, class:"navbar-brand" do %>
+      <%= image_tag "pngwing.com.png", class:"d-inline-block align-text-top", width: 35, height: 24 %>
+    <% end %>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse">
+      <div class="navbar-nav">
+        <%= link_to "Alex sin fete droneside", root_path, class: "nav-link", id:"navlink-home" %>
+        <%= link_to "Flyvideoer", videos_path, class:"nav-link", id:"navlink_videoer" %>
+      </div>
+    </div>
+  </div>
+</nav>
